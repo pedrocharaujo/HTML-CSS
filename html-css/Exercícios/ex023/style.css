@@ -1,3 +1,31 @@
 @charset "UTF-8";
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center; /** Alinhamento Horizontal**/
+    vertical-align: top; /** Alinhamento Vertical **/
+    
+}
+
+tr.primeira {
+    background-color: orange;    
+}
+
+tr.quarta {
+    background-color: blue;
+}
+
+td.b3 {
+    background-color: lightgreen;
+}
