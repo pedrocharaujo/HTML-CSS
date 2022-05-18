@@ -4,6 +4,20 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
+caption {    
+    background-color: rgb(185, 185, 185);
+    width: 500px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;  
+       
+}
+
+th.população {
+    width: 100px;
+}
+
 thead, tfoot {
     background-color: grey;
     color: white
@@ -12,6 +26,14 @@ thead, tfoot {
 table {
     width: 500px;
     border-collapse: collapse;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: rgb(195, 214, 235);
+}
+
+tbody > tr:nth-child(even) {
+    background-color: white;
 }
 
 td.num {
