@@ -1,0 +1,19 @@
+@charset "UTF-8"
+
+body{
+    background-color: brown;
+}
+h1{
+    color: black;
+    background-color: orange;
+}
+h2{
+    color: darkorange;
+    
+}
+ol{
+    background-color: lightcoral;
+}
+li{
+    color: black;
+}

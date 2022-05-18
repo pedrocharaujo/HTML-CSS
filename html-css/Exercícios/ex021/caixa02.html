@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        body{
+            background-color: grey;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: bold;
+            color: white;
+            margin: 0px;
+           }
+
+        header{
+            background-color: rgb(68, 0, 0);
+            padding: 10px;
+            margin: 0px 0px 20px 0px ;
+        }
+
+        nav {
+            background-color: rgb(54, 54, 54);
+            box-shadow: 2px 2px 6px black;
+            padding: 2px 0px 2px 0px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            
+            color: white;
+            margin: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;  
+                                         
+        }
+
+        main{
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 40px;
+        }
+
+        section#assunto {
+            background-color: rgb(54, 54, 54);
+            color: white;
+            padding: 2px;
+            margin-bottom: 20px ;
+        }
+
+        p{
+            text-indent: 30px;
+        }
+
+        section#noticias{
+            background-color: lightgrey;
+            text-align: justify;
+            border-radius: 30px;
+            padding: 2px 8px 7px 8px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+        }
+
+        aside{
+            background-color: rgb(155, 155, 155);
+            width: 200px;
+            text-align: center;
+            margin-left: 10px;
+            border-radius: 10px;
+
+        }
+        footer{
+            background-color: black;
+            padding: 4px;
+            text-align: center;
+            margin: 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Un Journal Le Premier</h1>
+        <nav>
+            <a href="#">Econômia</a>
+            <a href="#">Política</a>
+            <a href="#">Tecnologia</a>
+            <a href="#">Esportes</a>
+            <a href="#">Novidades</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section id="assunto">
+            Econômia
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel eos atque enim ratione est deleniti libero saepe illo suscipit, assumenda vitae cum sit numquam temporibus, mollitia eveniet, commodi accusamus cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et saepe dolorem recusandae ab pariatur commodi velit in minus, molestiae voluptate tempora omnis ea placeat, libero molestias. Culpa ducimus atque repellendus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore rerum facere blanditiis maxime, aliquid ratione eos! Quo officia veritatis culpa debitis excepturi quasi laboriosam repudiandae, fugit voluptates voluptatum aliquam? Quod!</p>
+                <aside>Escrito por José da Silva</aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        Desenvolvido por Pedro Araujo
+    </footer>
+</body>
+</html>
