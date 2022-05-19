@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 650px;
+    height: 220px;
+}
+
+caption {
+    background-color: orange;
+    height: 23px;
+    font-weight: bold;
+    color: white;
+    padding-top: 2px;
+}
+
+thead {
+    text-align: center;
+    background-color: rgb(63, 163, 63);
+    font-weight: bold;
+    color: white;    
+}
+
+th {
+    border: 1px solid darkblue;
+}
+
+td {
+    border: 1px solid darkblue;
+    padding-left: 3px;
+}
+
+tbody > tr > th {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(253, 208, 123);
+    border: 1px solid darkblue;
+
+    
+}
+
+tr.total {
+    background-color: rgb(255, 118, 118);
+}
+th.total, #tot{
+    background-color: grey;
+}
+
