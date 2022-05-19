@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+caption {
+    height: 22px;
+    background-color: lightgreen;
+}
+
+table {
+    width: 450px;
+    border-collapse: collapse;    
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+col.cnome {
+    background-color: red;
+}
+
+col.csi {
+    background-color: grey;
+}
+
+col.cprofissao {
+    background-color: orange;
+}
